@@ -1,5 +1,4 @@
-
-Folder contents<p>
+<b>Folder contents</b><p>
 <b>hello.c</b>: Hello World program (page 17)<br>
 <b>about.c</b>: Examination assignment (page 18)<br>
 <b>unicode.c</b>: Example 1 (page 18)<br>
