@@ -10,4 +10,6 @@ Folder Contents
 <b>seq_pi_approx_prec_double.c</b> Pi calculation από τους όρους της ακολουθίας μεγέθους 10^-15 με μεταβλητές τύπου double,  άσκηση 1.3.1 σελίδα 3<br>
 <b>seq_leibniz.c</b> leibniz,  άσκηση 1.5 σελίδα 4<br>
 <b>root.c</b> Παραγωγή τυχαίων αριθμών,  άσκηση 2.1 σελίδα 4<br>
+<b>limit.c</b> Αποσφαλμάτωση λαθών,  σελίδα 9<br>
+<b>limit_correct.c</b> Αποσφαλμάτωση λαθών, πρόγραμμα χωρίς λάθη,  σελίδα 9<br>
 
