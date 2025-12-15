@@ -5,9 +5,15 @@
 void badf(int, int,  int,  int);
 void goodf(int, int,  int *,  int *);
 
-int a=5, b=4, sum=0, diff=0;
 
 int main() {
+
+int a=5, b=4, sum=10, diff=10;
+
+printf("Give integer a: ");
+scanf("%d", &a);
+printf("Give integer b: ");
+scanf("%d", &b);
 
 badf(a, b, sum, diff);
 
@@ -21,15 +27,18 @@ return 0;
 
 }
 
-/*
-** HOW TO COMPILE ** 
-gcc -o myfun.c  //Creates myfun.o
-gcc -o myprog.c //Creates myprog.o
-gcc -c myprog myfun.o myprog.o  //Creates executable myprog
+void badf(int x, int y, int sum, int diff) {
 
-myprog
+sum = x + y;
+diff = x - y;
+printf("FROM INSIDE badf: The sum a+b is: %d, the difference a-b is: %d\n", sum, diff);
 
-Also
-gcc myprog.c myfun.c -o myprog //Does all the job
+}
 
-*/
+void goodf(int x, int y, int *sum, int *diff) {
+
+*sum = x + y;
+*diff = x - y;
+printf("FROM INSIDE goodf: The sum a+b is: %d, the difference a-b is: %d\n", *sum, *diff);
+
+}
